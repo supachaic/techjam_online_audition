@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 import os
 import pandas as pd
 import numpy as np
@@ -10,11 +5,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
-#from sklearn.decomposition import PCA
-#from sklearn.utils import shuffle
-
-
-# In[4]:
 
 def load_data():
     '''Preprocess data and return X, y, label_list'''
@@ -180,23 +170,16 @@ def load_data():
     
     X_all = pd.concat([X, X_test])
     X_all = StandardScaler().fit_transform(X_all.values)
-    '''X = StandardScaler().fit_transform(X.values)
-    X_test = StandardScaler().fit_transform(X_test.values)'''
     
     X = X_all[0:len(df_train)]
     X_test = X_all[len(df_train):]
     
     X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.25, random_state=42)
-    
-    #sm = SMOTE()
-    #X_train, y_train = sm.fit_sample(X_train, y_train)
-        
+            
     label_list = [0, 1]
         
     return X_train, y_train, X_val, y_val, X_test, label_list, col_name
 
-
-# In[8]:
 
 def get_data():
     
@@ -241,14 +224,10 @@ def get_data():
     return X_train, X_val, y_train, y_val, X_test, label_list
 
 
-# In[6]:
-
 def gen_file(array, filename):
     df = pd.DataFrame(array)
     df.to_csv(filename, header=None, index=False)
 
-
-# In[7]:
 
 def get_array(filename):
     df = pd.read_csv(filename, header=None)
