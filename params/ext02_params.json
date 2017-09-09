@@ -1,0 +1,1 @@
+{"timestamp": "201708201007", "estimator": "ext", "best_score": 0.8363376251788269, "val_score": 0.8391248391248392, "best_params": {"bootstrap": true, "criterion": "entropy", "max_depth": null, "max_features": 19, "min_samples_leaf": 5, "min_samples_split": 6, "n_estimators": 36, "oob_score": true, "random_state": 30}}

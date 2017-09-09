@@ -1,0 +1,1 @@
+{"timestamp": "201708201007", "estimator": "rfo", "best_score": 0.8376251788268956, "val_score": 0.8344058344058344, "best_params": {"bootstrap": true, "criterion": "gini", "max_depth": 3, "max_features": 17, "min_samples_leaf": 4, "min_samples_split": 6, "random_state": 36}}

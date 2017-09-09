@@ -1,0 +1,1 @@
+{"timestamp": "201708201001", "estimator": "ada", "best_score": 0.8409155937052932, "val_score": 0.8335478335478336, "best_params": {"algorithm": "SAMME.R", "learning_rate": 0.9944846188762828, "n_estimators": 77, "random_state": 69}}

@@ -1,0 +1,1 @@
+{"timestamp": "201708201001", "estimator": "log", "best_score": 0.8164520743919885, "val_score": 0.8211068211068211, "best_params": {"C": 10, "max_iter": 51, "penalty": "l2", "random_state": 53, "solver": "lbfgs", "tol": 0.001}}

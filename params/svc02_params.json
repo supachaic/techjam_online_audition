@@ -1,0 +1,1 @@
+{"timestamp": "201708201012", "estimator": "svc", "best_score": 0.8310443490701002, "val_score": 0.8314028314028314, "best_params": {"C": 1, "degree": 6, "probability": true, "random_state": 3, "shrinking": false, "tol": 0.001}}

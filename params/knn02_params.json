@@ -1,0 +1,1 @@
+{"timestamp": "201708201008", "estimator": "knn", "best_score": 0.8311874105865522, "val_score": 0.8326898326898327, "best_params": {"algorithm": "kd_tree", "leaf_size": 14, "n_neighbors": 47, "p": 1, "weights": "distance"}}
