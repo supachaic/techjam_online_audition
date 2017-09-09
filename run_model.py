@@ -1,7 +1,4 @@
-
-# coding: utf-8
-
-# In[3]:
+'''Main script for training and evaluate model'''
 
 import os
 import datetime
@@ -16,8 +13,6 @@ from DataProvider import get_data
 from utils import write_result, write_params, matric_score, get_timestamp
 from models import select_model, random_model, ensemble
 from nn_model import keras_model
-
-
 
 def _build_parser():
     parser = argparse.ArgumentParser()
@@ -242,10 +237,7 @@ def random_nn(space_params):
     
     return {'loss': -acc, 'status': STATUS_OK}        
 
-# In[ ]:
-
 if __name__ == '__main__':
-    #sys.stdout = open('logs/train.log', 'a')
     
     # Load data and split to train_set and validation_set
     X_train, X_val, y_train, y_val, X_test, label_list = get_data()
