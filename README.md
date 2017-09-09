@@ -15,6 +15,11 @@ This program run on Python3.6 environment with dependency library below.
 9. h5py 2.7.0
 10. lightgbm 2.0
 
+To install requirement libraries please use this command
+```
+ $ pip install -r requirements.txt 
+```
+
 ============================================================
 ### Folder Structure:
 		- data		  folder contain preprocessed dataset and label
