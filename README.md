@@ -30,16 +30,15 @@ To install requirement libraries please use this command
     
 ============================================================
 ### File explanation:
-		- run_model.py		  File to run training and evaluation 
-		- utils.py		      Collection of utility scripts, such as...
-							            - get_params
-							            - write_params
-							            - write_result
-							            - matric_score
-		- DataProvider.py	  function to preprocessing data and create train, test, 						
-                        and validation dataset file for training
-		- models.py		      Collection of estimators for training
-		- nn_model.py       Neural Network using keras
+		- run_model.py		File to run training and evaluation 
+		- utils.py		Collection of utility scripts, such as...
+					- get_params
+					- write_params
+					- write_result
+					- matric_score
+		- DataProvider.py	Function to preprocessing data and create train, test, 											and validation dataset file for training
+		- models.py		Collection of estimators for training
+		- nn_model.py       	Neural Network using keras
 
 ============================================================
 ### How to train random search of specific model (e.g. XGBoost)
