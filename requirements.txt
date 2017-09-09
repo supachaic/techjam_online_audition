@@ -1,0 +1,11 @@
+numpy==1.13.1
+imbalanced_learn==0.2.1
+scipy==0.19.1
+lightgbm==2.0.6
+pandas==0.20.1
+Keras==2.0.5
+xgboost.egg==info
+hyperopt==0.1
+imblearn==0.0
+scikit_learn==0.19.0
+xgboost==0.6
